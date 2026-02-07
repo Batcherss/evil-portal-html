@@ -28,7 +28,7 @@ By accessing or using this repository, you acknowledge and agree that:
 This tool is a double-edged sword. It shows how easy it is to create deceptive portals, which is exactly why you need to understand it - to defend against it. If you use this for anything other than education or authorized testing, you're part of the problem, not the solution.
 
 ---
-!!Supported firmwares: Bruce Firmware , Marauder.!!
+![Warning](https://img.shields.io/badge/Warning-Attention-red?style=for-the-badge&logo=github)Supported firmwares: Bruce Firmware , Marauder.
 
 ## !! INSTALLATION & USAGE 
 1. Clone htmls to your device.
