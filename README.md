@@ -30,6 +30,7 @@ This tool is a double-edged sword. It shows how easy it is to create deceptive p
 
 ---
 ![ESP32](https://img.shields.io/badge/ESP32-Supported-red?style=for-the-badge)
+
 Supported firmwares: Bruce Firmware , Marauder.
 
 ## !! INSTALLATION & USAGE 
