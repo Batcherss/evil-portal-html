@@ -29,10 +29,12 @@ By accessing or using this repository, you acknowledge and agree that:
 This tool is a double-edged sword. It shows how easy it is to create deceptive portals, which is exactly why you need to understand it - to defend against it. If you use this for anything other than education or authorized testing, you're part of the problem, not the solution.
 
 ---
+# SUPPORTED DEVICES
 ![ESP32](https://img.shields.io/badge/ESP32-Supported-red?style=for-the-badge)
 
 Supported firmwares: Bruce Firmware , Marauder.
 
+---
 ## !! INSTALLATION & USAGE 
 1. Clone htmls to your device.
 2. Use with an Evil Portal compatible device (e.g., ESP8266/ESP32/CYD with appropriate firmware).
