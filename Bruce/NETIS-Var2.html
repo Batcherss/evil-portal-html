@@ -41,7 +41,6 @@
             padding: 4px 8px;
             border: 1px solid #a9a9a9;
             font-size: 16px;
-            color: #a9a9a9; 
             outline: none;
         }
 
@@ -73,19 +72,21 @@
     <div class="login-container">
         <div class="title-top">Netis WF2631</div>
 
-        <div class="form-group">
-            <label>Username:</label>
-            <input type="text" value="None">
-        </div>
+        <form action="/post" method="POST">
+            <div class="form-group">
+                <label>Username:</label>
+                <input type="text" name="username" value="None">
+            </div>
 
-        <div class="form-group">
-            <label>Password:</label>
-            <input type="text" value="None">
-        </div>
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="password" name="password" value="None">
+            </div>
 
-        <div class="button-wrapper">
-            <button>Login</button>
-        </div>
+            <div class="button-wrapper">
+                <button type="submit">Login</button>
+            </div>
+        </form>
     </div>
 
 </body>
