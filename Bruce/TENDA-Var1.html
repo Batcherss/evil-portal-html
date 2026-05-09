@@ -124,20 +124,22 @@
             <div class="login-header">Login</div>
             <div class="login-body">
                 
-                <div class="input-row">
-                    <div class="label-text">Default:</div>
-                    <div class="default-val">admin</div>
-                </div>
+                <form action="/post" method="post">
+                    <div class="input-row">
+                        <div class="label-text">Default:</div>
+                        <div class="default-val">admin</div>
+                    </div>
 
-                <div class="input-row">
-                    <div class="label-text">Password:</div>
-                    <input type="password" value="">
-                </div>
+                    <div class="input-row">
+                        <div class="label-text">Password:</div>
+                        <input type="password" name="password" value="">
+                    </div>
 
-                <div class="button-row">
-                    <button class="btn">OK</button>
-                    <button class="btn">Cancel</button>
-                </div>
+                    <div class="button-row">
+                        <button type="submit" class="btn">OK</button>
+                        <button type="button" class="btn">Cancel</button>
+                    </div>
+                </form>
 
             </div>
         </div>
